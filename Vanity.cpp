@@ -1911,11 +1911,11 @@ void VanitySearch::ReWriteFiles(){
 		ReWrite = false;
 	}
 	
-	Timer::SleepMillis(500);
+	//Timer::SleepMillis(500);
 	
 	if (ReWrite) {
 		
-		printf("[i] Create work files!\n");
+		printf("[i] Created work files!\n");
 		
 		for (int i = 0; i < NB_WORK; i++) {
 			std::string ri = std::to_string(i);
@@ -1928,7 +1928,7 @@ void VanitySearch::ReWriteFiles(){
 		}
 	}
 	
-	Timer::SleepMillis(500);
+	//Timer::SleepMillis(500);
 }
 
 // ----------------------------------------------------------------------------
