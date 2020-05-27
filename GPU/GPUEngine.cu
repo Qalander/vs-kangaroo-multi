@@ -100,7 +100,7 @@ GPUEngine::GPUEngine(int nbThreadGroup, int nbThreadPerGroup, int gpuId, uint32_
   // Set fixed DP
   //fixedDP = 26;// 65 GB Space for Bits 110
   
-  hop_modulo = 32;// Jump Table size: 32
+  hop_modulo = (uint32_t)NB_JUMP;// Jump Table size: 32
   
   /*
   if (hop_modulo > NB_JUMP) {
