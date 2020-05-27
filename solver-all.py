@@ -41,8 +41,10 @@ def comparator(tame, wild):
 
 def main():
 
-    s_tame = str(sys.argv[1])
-    s_wild = str(sys.argv[2])
+    name1 = sys.argv[1]
+    name2 = sys.argv[2]
+    s_tame = str(name1)
+    s_wild = str(name2)
     #print('\n' + 'Compare:' + s_tame + s_wild + '\n')
     comparator(s_tame, s_wild)
 
